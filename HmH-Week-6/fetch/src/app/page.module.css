@@ -1,0 +1,53 @@
+.dogContainer {
+       display: flex;
+       flex-wrap: wrap;
+       align-items: center;
+       flex-direction: row;
+}
+
+.imgContainer {
+       display: flex;
+}
+.dog {
+       width: 110px;
+       height: auto;
+       padding: 10px;
+}
+
+.memeContainer {
+       display: flex;
+       flex-wrap: wrap;
+       align-items: center;
+       flex-direction: row;
+}
+
+.memeImgContainer{
+       display: flex;
+       justify-content: space-evenly;
+}
+
+.meme{
+       width: 50px;
+       height: auto;
+       padding: 5px;
+}
+
+.searchContainer {
+       display: flex;
+       align-items: center;
+       gap: 2px;
+}
+
+.searchInput {
+       height: 25px;
+}
+
+.searchBtn {
+       width: 70px;
+       height: 25px;
+}
+
+.pokemon {
+       height: auto;
+       width: 200px;
+}
