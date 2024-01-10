@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Objects</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script defer src="./index.js"></script>
+  </head>
+  <body>
+    <h1>Objects!</h1>
+
+    <p class="para">
+      Objects are terrific at describing things in code. They are similar to an
+      array in that it's a collection of values but, unlike an array, it is a
+      collection of values that describes one 'thing'. <br /><br />
+      Here's a person who likes dogs and laptops represented as an object:
+    </p>
+
+    <div id="arrayList"></div>
+
+    <div id="buttonList">
+      <!--Make 4 buttons-->
+      <!--1st button "Buy a Dog!"
+                            Displays "You need a $100 to buy a dog." under buttons. When you earn money, per each $100, you buy 1 dog and it updates dogs array and decreases money buy $ amount used-->
+      <button class="buyDog">Buy a Dog!</button>
+
+      <!--2nd button "Dog dies.."
+                            Displays "You don't have a dog, it couldn't of died." After you buy a dog, the dogs array decreases by 1-->
+      <button class="death">Dog dies..</button>
+
+      <!--3rd "work to earn Money!"
+                            Adds $100 each click to the money array-->
+      <button class="work">work to earn Money!</button>
+
+      <!--4th "Buy a new laptop!"
+                            Displays "You need $1000 to buy a laptop." under button. When you earn money, per each $1000, you buy 1 laptop and it updates laptops array and decreases money buy $ amount used -->
+      <button class="laptop">Buy a new laptop!</button>
+    </div>
+
+    <p id="display"></p>
+  </body>
+</html>
