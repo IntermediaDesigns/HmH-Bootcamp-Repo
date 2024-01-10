@@ -1,0 +1,47 @@
+#header {
+       font-size: 50px;
+}
+
+#frog {
+       font-size: 50px;
+}
+
+hr {
+       margin-top: 25px;
+}
+
+.box1 {
+       display: flex;
+}
+
+.box2 {
+       display: flex;
+       justify-content: center;
+}
+
+.box3 {
+       display: flex;
+       justify-content: flex-end;
+}
+
+.box4 {
+       flex-direction: column;
+}
+
+.box5 {
+       display: flex;
+       justify-content: space-around;
+}
+
+.box6 {
+       display: flex;
+       justify-content: space-between;
+}
+
+#box6a { 
+       display: flex;
+}
+
+#box6b {
+       justify-content: flex-end;
+}
